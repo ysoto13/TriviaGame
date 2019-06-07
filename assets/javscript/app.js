@@ -16,16 +16,16 @@
 
 
 // WORK AREA
-var card = $("quiz-area");
+var card = $("quiz");
 
 var countStartNumber = 30;
 
 var question = [{
     // copy paste for all 10 questions, last item doesn't need a comma because it causes problems
-    question: "string",
-    answers: [an array goes here]
-    correctAnswer: "string",
-    image: link or gif
+    question: "What are the names of the 7 dwarfs in the movie Snow White & the Seven Dwarfs?",
+    answers: ["Doc, Snotty, Grumpy, Dopey, Sneezy, Sadness, & Shy", "Doc, Sleepy, Grandpappy, Dopey, Allergy, Happy, & Tacky", "Doc, Sleepy, Grumpy, Dopey, Flowey, Picky, & Frightful", "Doc, Sleepy, Grumpy, Dopey, Sneezy, Happy, & Bashful"]
+    correctAnswer: "Doc, Sleepy, Grumpy, Dopey, Sneezy, Happy, & Bashful",
+    // image: link or gif
 }
 ];
 
