@@ -30,49 +30,49 @@ var question = [{
 
 {
     question2: "What color is Rapunzel's dress?",
-    answers: ["pink", "yellow", "purple", "ice blue"]
+    answers: ["pink", "yellow", "purple", "ice blue"],
     correctAnswer: "purple"
 },
 
 
 {
     question3: "Which princess knows how to cook?",
-    answers: ["Tiana", "Ariel", "Cinderella", "Elsa"]
+    answers: ["Tiana", "Ariel", "Cinderella", "Elsa"],
     correctAnswer: "Tiana"
 },
 
 
 {
     question4: "Rafiki, is from which Disney movie?",
-    answers: ["The Little Mermaid", "The Lion King", "Frozen", "The Jungle Book"]
+    answers: ["The Little Mermaid", "The Lion King", "Frozen", "The Jungle Book"],
     correctAnswer: "The Lion King"
 },
 
 
 {
     question5: "Where did the Beauty and the Beast movie take place?",
-    answers: ["France", "Germany", "Norway", "Sweden"]
+    answers: ["France", "Germany", "Norway", "Sweden"],
     correctAnswer: "France"
 },
 
 
 {
     question6: "Which movie has the song I'll Make a Man Out of You?",
-    answers: ["Aladdin", "Lilo & Stitch", "Lady And the Tramp", "Mulan"]
+    answers: ["Aladdin", "Lilo & Stitch", "Lady And the Tramp", "Mulan"],
     correctAnswer: "Mulan"
 },
 
 
 {
     question7: "What is the name of Mufasa's brother?",
-    answers: ["T'Challa", "Sin", "Scar", "Al"]
+    answers: ["T'Challa", "Sin", "Scar", "Al"],
     correctAnswer: "Scar"
 },
 
 
 {
     question8: "What is the name of Moana's pet rooster?",
-    answers: ["Chicken", "Hei Hei", "Maui", "Pua"]
+    answers: ["Chicken", "Hei Hei", "Maui", "Pua"],
     correctAnswer: "Hei Hei"
 
 },
@@ -80,14 +80,14 @@ var question = [{
 
 {
     question9: "What is the name of Lilo's older sister?",
-    answers: ["Nana", "Lola", "Nani", "Nala"]
+    answers: ["Nana", "Lola", "Nani", "Nala"],
     correctAnswer: "Nani"
 },
 
 
 {
     question10: "In the movie, brave what is MErida's horse called?",
-    answers: ["Hubert", "Harris", "Hamish", "Angus"]
+    answers: ["Hubert", "Harris", "Hamish", "Angus"],
     correctAnswer: "Angus"
 }];
 
