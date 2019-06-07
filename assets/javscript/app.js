@@ -104,6 +104,7 @@ var game = {
 
     countdown: function(){
         // decrement counter
+        countStartNumber
             // use jquery to put dynamically put logic onto the page
                 // if time is up, run time up function
     },
@@ -189,16 +190,19 @@ var game = {
 $(document).on("click", "#start", function() {
     $("#sub-wrapper").prepend("<h2>Time Remaining: <span id='counter-number'>90</span> Seconds</h2>");
     game.loadQuestion();
+    <console.log;
 });
 
 //ANSWER BUTTON
 // on click even here jq
 $(document).on("click", ".answer-button", function (e) {
     game.clicked(e);
+    console.log;
 });
 
 //START OVER BUTTON
 // on click even here jq
 $(document).on("click", "#start-over", function () {
     game.reset();
+    console.log;
 });
