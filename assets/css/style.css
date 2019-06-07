@@ -1,1 +1,8 @@
-/* my css will go here */
+body {
+    background: #563d7c;
+    color: white;
+}
+
+.row {
+    margin:  auto;
+}

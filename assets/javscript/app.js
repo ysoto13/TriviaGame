@@ -15,6 +15,13 @@
 
 
 
+
+
+// A $( document ).ready() block.
+$( document ).ready(function() {
+    console.log( "ready!" );
+
+
 // WORK AREA
 var card = $("quiz");
 
@@ -23,7 +30,7 @@ var countStartNumber = 90;
 var question = [{
 
     question1: "What are the names of the 7 dwarfs in the movie Snow White & the Seven Dwarfs?",
-    answers: ["Doc, Snotty, Grumpy, Dopey, Sneezy, Sadness, & Shy", "Doc, Sleepy, Grandpappy, Dopey, Allergy, Happy, & Tacky", "Doc, Sleepy, Grumpy, Dopey, Flowey, Picky, & Frightful", "Doc, Sleepy, Grumpy, Dopey, Sneezy, Happy, & Bashful"]
+    answers: ["Doc, Snotty, Grumpy, Dopey, Sneezy, Sadness, & Shy", "Doc, Sleepy, Grandpappy, Dopey, Allergy, Happy, & Tacky", "Doc, Sleepy, Grumpy, Dopey, Flowey, Picky, & Frightful", "Doc, Sleepy, Grumpy, Dopey, Sneezy, Happy, & Bashful"],
     correctAnswer: "Doc, Sleepy, Grumpy, Dopey, Sneezy, Happy, & Bashful"
 },
 
@@ -92,6 +99,14 @@ var question = [{
 }];
 
 
+
+
+//button
+var onScreenQuestions = $(".quiz").text(function question1());
+
+
+
+
 // A variable to hold the set interval
 var timer;
 
@@ -104,7 +119,7 @@ var game = {
 
     countdown: function(){
         // decrement counter
-        countStartNumber
+        game.counter --;
             // use jquery to put dynamically put logic onto the page
                 // if time is up, run time up function
     },
