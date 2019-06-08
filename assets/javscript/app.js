@@ -25,7 +25,11 @@ $(document).ready(function () {
 
 
     // WORK AREA
+    var card = $("#quiz");
+    
     var countStartNumber = 90;
+
+    var correctAnswers = ["Doc, Sleepy, Grumpy, Dopey, Sneezy, Happy, & Bashful", "purple", "Tiana", "The Lion King", "France", "Mulan", "Scar", "Hei Hei", "Nani", "Angus"];
 
     var question = [{
 
@@ -121,7 +125,7 @@ $(document).ready(function () {
             // if time is up, run time up function
             $("show").html("<h1>" + number + "</h1>");
             if (number === 0) {
-                stop();
+                timeUp();
             }
         },
 
@@ -132,7 +136,7 @@ $(document).ready(function () {
 
         results: function () {
             // clearInterval
-
+            clearInterval(countdown);
             // dynamically add htmml to let them know of there results
             // use jquery to add htmtl of game.counter to the id of counter-number
             // add how many correct answers they got
@@ -152,11 +156,13 @@ $(document).ready(function () {
         answeredIncorrectly: function () {
         
             // clearInterval(timer)
+            clearInterval(countdown);
             // if / else statment
         },
 
         answeredCorrectly: function () {
             // clearInterval(timer);
+            clearInterval(countdown);
             // if / else statment
         },
 
