@@ -148,7 +148,7 @@ $(document).ready(function () {
             $("#results").append("<h2>Results!!</h2>")
             // dynamically add htmml to let them know of there results
             // use jquery to add htmtl of game.counter to the id of counter-number
-            $("counter-number").html(game.counter)
+            $(".counter-number").html(game.counter)
             // add how many correct answers they got
 
             // add how many incorrect answer they got
