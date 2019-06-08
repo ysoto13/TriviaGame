@@ -18,8 +18,9 @@
 
 
 // A $( document ).ready() block.
-$( document ).ready(function() {
-    console.log( "ready!" );
+$(document).ready(function(){
+    console.log("ready!");
+};
 
 
 // WORK AREA
@@ -128,25 +129,6 @@ var game = {
                 // if time is up, run time up function
     },
 
-    // loadQuestion: function(){
-    //     // set timer
-    //     // timer= setInterval(game.countdown, 1000)
-    //     // dynamically add question into card variable
-    //     // hint = car.html ("<h2>" + "</h2>")
-    //     // for loop to run through the 
-    //         // questions
-    //         // a dynamically added buttons with answer options
-    // },
-
-
-    // nextQuestion: function(){
-    //     // set the counter back to 30
-    //     // game.counter = countStartNumber
-    //     // use jquery to change the text of the game counter
-    //     // increment the currentQuestion by one
-    //     // call the loadQuestion function
-    // },
-
     timeUp: function(){
         // clearInterval(timer)
         // use jquery to change the text of the game counter
@@ -207,14 +189,15 @@ var game = {
 //START BUTTON
 // on click even here jq
 $(document).on("click", "#start", function() {
-    $("#sub-wrapper").prepend("<h2>Time Remaining: <span id='counter-number'>90</span> Seconds</h2>");
+    $("#start").prepend("<h2>Time Remaining: <span id='counter-number'>90</span> Seconds</h2>");
     game.loadQuestion();
-    <console.log;
+    console.log;
 });
 
-//ANSWER BUTTON
+
+//SUBMIT BUTTON
 // on click even here jq
-$(document).on("click", ".answer-button", function (e) {
+$(document).on("click", ".submit-button", function (e) {
     game.clicked(e);
     console.log;
 });
