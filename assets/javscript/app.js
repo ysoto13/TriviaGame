@@ -130,8 +130,7 @@ $(document).ready(function () {
         },
 
         timeUp: function () {
-            // clearInterval(timer)
-            clearInterval(countdown);
+            setInterval(timeUp, 1000 * 9);
         },
 
         results: function () {
