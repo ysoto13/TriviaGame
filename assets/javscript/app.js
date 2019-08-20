@@ -127,19 +127,20 @@ var game = {
 
 
         $("#sub-wrapper").prepend(
-            "<h2>Time Remaining: <span id='counter-number'>120</span> Seconds</h2>"
+            "<br><h2>Time Remaining: <span id='counter-number'>120</span> Seconds</h2>"
         );
 
         $("#start").remove();
 
         for (var i = 0; i < quizQuestions.length; i++) {
-            card.append("<h2>" + quizQuestions[i].question + "</h2>");
+            card.append("<h2><br><br>" + quizQuestions[i].question + "</h2>");
             for (var j = 0; j < quizQuestions[i].answers.length; j++) {
-                card.append("<input type='radio' name='question-" + i + "' value='" + quizQuestions[i].answers[j] + "''>" + quizQuestions[i].answers[j]);
+                card.append("<br><input type='radio' name='question-" + i + "' value='" + quizQuestions[i].answers[j] + "''>" + quizQuestions[i].answers[j]);
             }
         }
+        
 
-        card.append("<button id='done'>Done</button>");
+        card.append("<br><br><button id='done'>Done</button>");
     },
 
     done: function () {
@@ -161,8 +162,8 @@ var game = {
         $("#sub-wrapper h2").remove();
 
         card.html("<h2>Complete!</h2>");
-        card.append("<h3>Correct Answers: " + this.correct + "</h3>");
-        card.append("<h3>Incorrect Answers: " + this.incorrect + "</h3>");
+        card.append("<br><h3>Correct Answers: " + this.correct + "</h3>");
+        card.append("<h3>Incorrect Answers: " + this.incorrect + "</h3><br>");
     }
 
 

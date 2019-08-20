@@ -1,8 +1,37 @@
 body {
-    background: #cdacff;
-    color: white;
+    background: url(../images/bowl-cinema-close-up-1353368.jpg);
+    color: #000;
+    text-align: center;
 }
 
 .row {
     margin:  auto;
+}
+
+#wrapper {
+    margin: 100px 460px 0px 460px;
+}
+
+h1 {
+    font-family: 'Hepta Slab', serif;
+    font-size: 45px;
+}
+
+#sub-wrapper {
+    width: 620px;
+    height: 500px;
+    overflow: auto;
+    color: #000;
+}
+
+#start {
+     margin-top: 200px;
+     font-size: 50px;
+}
+
+#quiz {
+    font-family: 'Lexend Mega', sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
 }
